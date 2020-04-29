@@ -1,4 +1,4 @@
-body
+body{
   font-size: 14px;
 }
 
@@ -8,7 +8,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -29,8 +29,17 @@ h3 {
   font-size: 1.3em;
 }
 
+/*CSS div added for last three div elements*/
+div {
+  background-color: yellow;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
